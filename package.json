@@ -8,6 +8,7 @@
   },
   "author": "",
   "license": "MIT",
+  "private": true,
   "devDependencies": {
     "ts-loader": "^8.0.1",
     "typescript": "^3.9.7",
