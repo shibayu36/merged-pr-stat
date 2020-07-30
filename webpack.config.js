@@ -1,4 +1,5 @@
 module.exports = {
+  mode: "production",
   entry: "./src/index.ts",
   target: "node",
   module: {
