@@ -28,5 +28,11 @@
     "typescript": "^3.9.7",
     "webpack": "^4.44.0",
     "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "commander": "^6.0.0",
+    "date-fns": "^2.15.0",
+    "graphql": "^15.3.0",
+    "graphql-request": "^3.0.0"
   }
 }
