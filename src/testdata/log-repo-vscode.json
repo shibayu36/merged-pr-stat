@@ -1,0 +1,299 @@
+[
+  {
+    "title": "Encoding euckr does not exist anymore (fix #101847)",
+    "author": {
+      "login": "bpasero"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101853",
+    "createdAt": "2020-07-07T12:09:03Z",
+    "mergedAt": "2020-07-07T12:25:10Z",
+    "additions": 36,
+    "deletions": 25
+  },
+  {
+    "title": "Fixes quick find symbol finder shows 'no matching results' after backspace",
+    "author": {
+      "login": "jeanp413"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101844",
+    "createdAt": "2020-07-07T09:31:01Z",
+    "mergedAt": "2020-07-07T11:20:42Z",
+    "additions": 11,
+    "deletions": 7
+  },
+  {
+    "title": "[Settings Editor] Add extra bottom padding for lists in settings",
+    "author": {
+      "login": "9at8"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101812",
+    "createdAt": "2020-07-06T17:16:20Z",
+    "mergedAt": "2020-07-06T18:45:35Z",
+    "additions": 4,
+    "deletions": 2
+  },
+  {
+    "title": "[Settings Editor] Remove debounce on key change in object type settings",
+    "author": {
+      "login": "9at8"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101811",
+    "createdAt": "2020-07-06T17:13:53Z",
+    "mergedAt": "2020-07-06T23:38:49Z",
+    "additions": 9,
+    "deletions": 14
+  },
+  {
+    "title": "[Settings Editor] Fix add button visibility in object settings",
+    "author": {
+      "login": "9at8"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101810",
+    "createdAt": "2020-07-06T17:08:55Z",
+    "mergedAt": "2020-07-06T23:38:30Z",
+    "additions": 8,
+    "deletions": 6
+  },
+  {
+    "title": "[Settings Editor] Don't add pairs with empty keys in object settings",
+    "author": {
+      "login": "9at8"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101809",
+    "createdAt": "2020-07-06T16:51:55Z",
+    "mergedAt": "2020-07-06T18:41:59Z",
+    "additions": 1,
+    "deletions": 1
+  },
+  {
+    "title": "[Settings Editor] Correctly handle null default values for objects",
+    "author": {
+      "login": "9at8"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101807",
+    "createdAt": "2020-07-06T16:48:25Z",
+    "mergedAt": "2020-07-06T23:11:09Z",
+    "additions": 22,
+    "deletions": 8
+  },
+  {
+    "title": "[Settings Editor] Reset object renderer model state if setting key changes",
+    "author": {
+      "login": "9at8"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101806",
+    "createdAt": "2020-07-06T16:43:36Z",
+    "mergedAt": "2020-07-06T23:13:39Z",
+    "additions": 11,
+    "deletions": 1
+  },
+  {
+    "title": "Clarify requirements, fix for smoke tests",
+    "author": {
+      "login": "Chuxel"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101801",
+    "createdAt": "2020-07-06T15:54:50Z",
+    "mergedAt": "2020-07-06T17:48:48Z",
+    "additions": 15,
+    "deletions": 6
+  },
+  {
+    "title": "Joao/release/1.47/101688",
+    "author": {
+      "login": "joaomoreno"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101796",
+    "createdAt": "2020-07-06T15:17:34Z",
+    "mergedAt": "2020-07-06T15:23:29Z",
+    "additions": 1,
+    "deletions": 1
+  },
+  {
+    "title": "Ignore less cached data when more is available",
+    "author": {
+      "login": "jrieken"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101778",
+    "createdAt": "2020-07-06T06:25:43Z",
+    "mergedAt": "2020-07-06T10:24:26Z",
+    "additions": 6,
+    "deletions": 0
+  },
+  {
+    "title": "saveUntitedBeforeShutdown -> saveUntitledBeforeShutdown",
+    "author": {
+      "login": "tony-xia"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101740",
+    "createdAt": "2020-07-05T06:50:30Z",
+    "mergedAt": "2020-07-06T05:55:37Z",
+    "additions": 2,
+    "deletions": 2
+  },
+  {
+    "title": "Typo: ICommontTelemetryPropertiesResolver -> ICommonTelemetryPropertiesResolver",
+    "author": {
+      "login": "tony-xia"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101739",
+    "createdAt": "2020-07-05T06:42:19Z",
+    "mergedAt": "2020-07-07T13:58:47Z",
+    "additions": 3,
+    "deletions": 3
+  },
+  {
+    "title": "Add new Makefile test case for upgraded syntax",
+    "author": {
+      "login": "fadeevab"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101719",
+    "createdAt": "2020-07-04T18:17:51Z",
+    "mergedAt": "2020-07-06T13:19:43Z",
+    "additions": 68,
+    "deletions": 0
+  },
+  {
+    "title": "fix #79275 enable encodings for web",
+    "author": {
+      "login": "gyzerok"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101706",
+    "createdAt": "2020-07-04T02:40:40Z",
+    "mergedAt": "2020-07-04T11:42:32Z",
+    "additions": 266,
+    "deletions": 296
+  },
+  {
+    "title": "remove jschardet typings workaround for #79275",
+    "author": {
+      "login": "gyzerok"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101705",
+    "createdAt": "2020-07-03T23:55:09Z",
+    "mergedAt": "2020-07-04T11:04:03Z",
+    "additions": 1,
+    "deletions": 5
+  },
+  {
+    "title": "Update notebook output width ",
+    "author": {
+      "login": "misolori"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101687",
+    "createdAt": "2020-07-03T15:57:20Z",
+    "mergedAt": "2020-07-06T17:34:37Z",
+    "additions": 2,
+    "deletions": 2
+  },
+  {
+    "title": "Show SCM uppercase in settings search titles",
+    "author": {
+      "login": "gjsjohnmurray"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101679",
+    "createdAt": "2020-07-03T14:24:14Z",
+    "mergedAt": "2020-07-04T01:10:39Z",
+    "additions": 1,
+    "deletions": 0
+  },
+  {
+    "title": "Improve text of SCM count badge settings",
+    "author": {
+      "login": "gjsjohnmurray"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101677",
+    "createdAt": "2020-07-03T13:40:40Z",
+    "mergedAt": "2020-07-06T07:52:27Z",
+    "additions": 6,
+    "deletions": 6
+  },
+  {
+    "title": "Check if focus changed",
+    "author": {
+      "login": "chrmarti"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101667",
+    "createdAt": "2020-07-03T09:29:18Z",
+    "mergedAt": "2020-07-03T09:37:08Z",
+    "additions": 5,
+    "deletions": 4
+  },
+  {
+    "title": "Check RAM before compiling",
+    "author": {
+      "login": "jrieken"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101660",
+    "createdAt": "2020-07-03T07:57:02Z",
+    "mergedAt": "2020-07-06T10:45:15Z",
+    "additions": 10,
+    "deletions": 0
+  },
+  {
+    "title": "Added word boundary on tsserver regex",
+    "author": {
+      "login": "armanio123"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101598",
+    "createdAt": "2020-07-02T13:23:50Z",
+    "mergedAt": "2020-07-02T20:18:58Z",
+    "additions": 1,
+    "deletions": 1
+  },
+  {
+    "title": ":up: jschardet@2.2.1 (#33720)",
+    "author": {
+      "login": "bpasero"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/101489",
+    "createdAt": "2020-07-01T08:51:01Z",
+    "mergedAt": "2020-07-03T13:53:03Z",
+    "additions": 22,
+    "deletions": 22
+  },
+  {
+    "title": "Move read and write logic from nativeTextFileService to textFileService for #79275",
+    "author": {
+      "login": "gyzerok"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/100804",
+    "createdAt": "2020-06-23T01:34:59Z",
+    "mergedAt": "2020-07-03T13:55:45Z",
+    "additions": 833,
+    "deletions": 217
+  },
+  {
+    "title": "Add \"pnpm\" option to \"npm.packageManager\" setting",
+    "author": {
+      "login": "Anoesj"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/100654",
+    "createdAt": "2020-06-20T15:39:18Z",
+    "mergedAt": "2020-07-01T13:36:38Z",
+    "additions": 3,
+    "deletions": 2
+  },
+  {
+    "title": "#98942 Clear Search Pattern Fields",
+    "author": {
+      "login": "edjeffreys"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/100024",
+    "createdAt": "2020-06-12T18:23:56Z",
+    "mergedAt": "2020-07-04T01:34:38Z",
+    "additions": 18,
+    "deletions": 1
+  },
+  {
+    "title": "Feature #88480: Empty Lines Not Getting Commented-Out",
+    "author": {
+      "login": "alvintangz"
+    },
+    "url": "https://github.com/microsoft/vscode/pull/93160",
+    "createdAt": "2020-03-22T01:43:05Z",
+    "mergedAt": "2020-07-07T07:30:06Z",
+    "additions": 149,
+    "deletions": 19
+  }
+]

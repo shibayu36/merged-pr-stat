@@ -1,6 +1,7 @@
 import { parseISO } from "date-fns";
 import { gql } from "graphql-request";
 import { graphQLClient } from "./github";
+import { PullRequest } from "./types";
 
 interface LogCommandOptions {
   start: string;
@@ -17,17 +18,6 @@ export async function logCommand(options: LogCommandOptions): Promise<void> {
   process.stdout.write(JSON.stringify(prs, undefined, 2));
 }
 
-interface PullRequest {
-  title: string;
-  author: {
-    login: string;
-  };
-  url: string;
-  createdAt: string;
-  mergedAt: string;
-  additions: number;
-  deletions: number;
-}
 async function fetchAllPullRequestsByQuery(searchQuery: string): Promise<PullRequest[]> {
   const query = gql`
     query($after: String) {
@@ -69,7 +59,7 @@ async function fetchAllPullRequestsByQuery(searchQuery: string): Promise<PullReq
 
     if (!data.search.pageInfo.hasNextPage) break;
 
-    console.debug(JSON.stringify(data, undefined, 2));
+    console.error(JSON.stringify(data, undefined, 2));
 
     after = data.search.pageInfo.endCursor;
   }

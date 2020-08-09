@@ -1,5 +1,6 @@
 import { program } from "commander";
 import { logCommand } from "./log-command";
+import { statCommand } from "./stat-command";
 
 async function main(): Promise<void> {
   program.version("0.1.0");
@@ -9,6 +10,8 @@ async function main(): Promise<void> {
     .requiredOption("--end <date>", "end date")
     .requiredOption("--query <search query>", "query for github search")
     .action(logCommand);
+
+  program.command("stat").requiredOption("--input <filepath>").action(statCommand);
 
   program.parse(process.argv);
 }
