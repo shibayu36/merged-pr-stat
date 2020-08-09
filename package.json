@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --silent",
-    "exec": "npm run build && node dist/index.js",
+    "exec": "npm run --silent build && node dist/index.js",
     "lint": "eslint . --ext 'ts,js'",
     "lint:fix": "eslint . --fix --ext 'ts,js'"
   },

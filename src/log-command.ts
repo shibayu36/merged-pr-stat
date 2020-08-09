@@ -1,7 +1,6 @@
 import { parseISO } from "date-fns";
 import { gql } from "graphql-request";
 import { graphQLClient } from "./github";
-import csvStringify from "csv-stringify";
 
 interface LogCommandOptions {
   start: string;
@@ -15,11 +14,7 @@ export async function logCommand(options: LogCommandOptions): Promise<void> {
 
   const searchQuery = `is:pr is:merged merged:${startDate.toISOString()}..${endDate.toISOString()} ${query}`;
   const prs = await fetchAllPullRequestsByQuery(searchQuery);
-  csvStringify(prsToCsvRows(prs), (err, output) => {
-    if (output !== undefined) {
-      process.stdout.write(output);
-    }
-  });
+  process.stdout.write(JSON.stringify(prs, undefined, 2));
 }
 
 interface PullRequest {
@@ -74,27 +69,10 @@ async function fetchAllPullRequestsByQuery(searchQuery: string): Promise<PullReq
 
     if (!data.search.pageInfo.hasNextPage) break;
 
-    console.error(JSON.stringify(data, undefined, 2));
+    console.debug(JSON.stringify(data, undefined, 2));
 
     after = data.search.pageInfo.endCursor;
   }
 
   return prs;
-}
-
-function prsToCsvRows(prs: PullRequest[]): string[][] {
-  const header = ["title", "author", "createdAt", "mergedAt", "additions", "deletions", "url"];
-
-  return [
-    header,
-    ...prs.map((pr) => [
-      pr.title,
-      pr.author.login,
-      pr.createdAt,
-      pr.mergedAt,
-      pr.additions.toString(),
-      pr.deletions.toString(),
-      pr.url,
-    ]),
-  ];
 }
