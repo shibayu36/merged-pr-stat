@@ -1,10 +1,10 @@
 {
-  "name": "gh-pr-counter",
+  "name": "merged-pr-stat",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "bin": {
-    "gh-pr-counter": "bin/git-pr-counter.js"
+    "merged-pr-stat": "bin/merged-pr-stat.js"
   },
   "scripts": {
     "test": "jest",
