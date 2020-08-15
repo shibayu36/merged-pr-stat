@@ -11,7 +11,13 @@ async function main(): Promise<void> {
     .requiredOption("--query <search query>", "query for github search")
     .action(logCommand);
 
-  program.command("stat").requiredOption("--input <filepath>").action(statCommand);
+  program
+    .command("stat")
+    .option("--input <filepath>")
+    .option("--start <date>")
+    .option("--end <date>")
+    .option("--query <search query>")
+    .action(statCommand);
 
   program.parse(process.argv);
 }

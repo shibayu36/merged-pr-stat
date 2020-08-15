@@ -2,12 +2,27 @@ import fs from "fs";
 import { PullRequest } from "./types";
 import { uniq } from "underscore";
 import { median } from "mathjs";
+import { fetchAllMergedPullRequests } from "./github";
 
 interface StatCommandOptions {
-  input: string;
+  input: string | undefined;
+  start: string | undefined;
+  end: string | undefined;
+  query: string | undefined;
 }
 export async function statCommand(options: StatCommandOptions): Promise<void> {
-  const prs: PullRequest[] = JSON.parse(fs.readFileSync(options.input, "utf8"));
+  let prs: PullRequest[] = [];
+
+  if (options.query) {
+    prs = await fetchAllMergedPullRequests(options.query, options.start, options.end);
+  } else if (options.input) {
+    prs = JSON.parse(fs.readFileSync(options.input, "utf8"));
+  } else {
+    console.error("You must specify either --query or --input");
+    process.exit(1);
+  }
+
+  process.stdout.write(JSON.stringify(createStat(prs), undefined, 2));
 }
 
 interface PullRequestStat {
