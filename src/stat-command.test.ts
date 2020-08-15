@@ -15,6 +15,8 @@ describe("createStat", () => {
         "count": 4,
         "deletionsAverage": 70.75,
         "deletionsMedian": 23.5,
+        "leadTimeAverage": 2591489,
+        "leadTimeMedian": 549684,
       }
     `);
   });
@@ -32,6 +34,8 @@ describe("createStat", () => {
         "count": 27,
         "deletionsAverage": 24.11111111111111,
         "deletionsMedian": 3,
+        "leadTimeAverage": 541799,
+        "leadTimeMedian": 32512,
       }
     `);
   });

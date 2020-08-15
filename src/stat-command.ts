@@ -3,6 +3,7 @@ import { PullRequest } from "./types";
 import { uniq } from "underscore";
 import { median } from "mathjs";
 import { fetchAllMergedPullRequests } from "./github";
+import { parseISO } from "date-fns";
 
 interface StatCommandOptions {
   input: string | undefined;
@@ -32,8 +33,12 @@ interface PullRequestStat {
   additionsMedian: number;
   deletionsAverage: number;
   deletionsMedian: number;
+  leadTimeAverage: number;
+  leadTimeMedian: number;
 }
 export function createStat(prs: PullRequest[]): PullRequestStat {
+  const leadTimes = prs.map((pr) => (parseISO(pr.mergedAt).getTime() - parseISO(pr.createdAt).getTime()) / 1000);
+
   return {
     count: prs.length,
     authorCount: uniq(prs.map((pr) => pr.author.login)).length,
@@ -41,6 +46,8 @@ export function createStat(prs: PullRequest[]): PullRequestStat {
     additionsMedian: median(prs.map((pr) => pr.additions)),
     deletionsAverage: average(prs.map((pr) => pr.deletions)),
     deletionsMedian: median(prs.map((pr) => pr.deletions)),
+    leadTimeAverage: Math.floor(average(leadTimes)),
+    leadTimeMedian: Math.floor(median(leadTimes)),
   };
 }
 
