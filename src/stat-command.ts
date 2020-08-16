@@ -33,8 +33,8 @@ interface PullRequestStat {
   additionsMedian: number;
   deletionsAverage: number;
   deletionsMedian: number;
-  leadTimeAverage: number;
-  leadTimeMedian: number;
+  leadTimeSecondsAverage: number;
+  leadTimeSecondsMedian: number;
 }
 export function createStat(prs: PullRequest[]): PullRequestStat {
   const leadTimes = prs.map((pr) => (parseISO(pr.mergedAt).getTime() - parseISO(pr.createdAt).getTime()) / 1000);
@@ -46,8 +46,8 @@ export function createStat(prs: PullRequest[]): PullRequestStat {
     additionsMedian: median(prs.map((pr) => pr.additions)),
     deletionsAverage: average(prs.map((pr) => pr.deletions)),
     deletionsMedian: median(prs.map((pr) => pr.deletions)),
-    leadTimeAverage: Math.floor(average(leadTimes)),
-    leadTimeMedian: Math.floor(median(leadTimes)),
+    leadTimeSecondsAverage: Math.floor(average(leadTimes)),
+    leadTimeSecondsMedian: Math.floor(median(leadTimes)),
   };
 }
 
