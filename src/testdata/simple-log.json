@@ -1,82 +1,50 @@
 [
   {
     "title": "Encoding euckr does not exist anymore (fix #101847)",
-    "author": {
-      "login": "bpasero"
-    },
+    "author": "bpasero",
     "url": "https://github.com/microsoft/vscode/pull/101853",
     "createdAt": "2020-07-07T12:09:03Z",
     "mergedAt": "2020-07-07T12:25:10Z",
     "additions": 36,
     "deletions": 25,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-07T12:03:23Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-07T12:03:23Z",
+    "leadTimeSeconds": 967,
+    "timeToMergeSeconds": 1307
   },
   {
     "title": ":up: jschardet@2.2.1 (#33720)",
-    "author": {
-      "login": "bpasero"
-    },
+    "author": "bpasero",
     "url": "https://github.com/microsoft/vscode/pull/101489",
     "createdAt": "2020-07-01T08:51:01Z",
     "mergedAt": "2020-07-03T13:53:03Z",
     "additions": 22,
     "deletions": 22,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-01T08:50:30Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-01T08:50:30Z",
+    "leadTimeSeconds": 190922,
+    "timeToMergeSeconds": 190953
   },
   {
     "title": "Move read and write logic from nativeTextFileService to textFileService for #79275",
-    "author": {
-      "login": "gyzerok"
-    },
+    "author": "gyzerok",
     "url": "https://github.com/microsoft/vscode/pull/100804",
     "createdAt": "2020-06-23T01:34:59Z",
     "mergedAt": "2020-07-03T13:55:45Z",
     "additions": 833,
     "deletions": 217,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-06-20T13:17:53Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-06-20T13:17:53Z",
+    "leadTimeSeconds": 908446,
+    "timeToMergeSeconds": 1125472
   },
   {
     "title": "Feature #88480: Empty Lines Not Getting Commented-Out",
-    "author": {
-      "login": "alvintangz"
-    },
+    "author": "alvintangz",
     "url": "https://github.com/microsoft/vscode/pull/93160",
     "createdAt": "2020-03-22T01:43:05Z",
     "mergedAt": "2020-07-07T07:30:06Z",
     "additions": 149,
     "deletions": 19,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-03-09T18:57:53Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-03-09T18:57:53Z",
+    "leadTimeSeconds": 9265621,
+    "timeToMergeSeconds": 10326733
   }
 ]

@@ -1,542 +1,326 @@
 [
   {
     "title": "Encoding euckr does not exist anymore (fix #101847)",
-    "author": {
-      "login": "bpasero"
-    },
+    "author": "bpasero",
     "url": "https://github.com/microsoft/vscode/pull/101853",
     "createdAt": "2020-07-07T12:09:03Z",
     "mergedAt": "2020-07-07T12:25:10Z",
     "additions": 36,
     "deletions": 25,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-07T12:03:23Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-07T12:03:23Z",
+    "leadTimeSeconds": 967,
+    "timeToMergeSeconds": 1307
   },
   {
     "title": "Fixes quick find symbol finder shows 'no matching results' after backspace",
-    "author": {
-      "login": "jeanp413"
-    },
+    "author": "jeanp413",
     "url": "https://github.com/microsoft/vscode/pull/101844",
     "createdAt": "2020-07-07T09:31:01Z",
     "mergedAt": "2020-07-07T11:20:42Z",
     "additions": 11,
     "deletions": 7,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-07T09:27:08Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-07T09:27:08Z",
+    "leadTimeSeconds": 6581,
+    "timeToMergeSeconds": 6814
   },
   {
     "title": "[Settings Editor] Add extra bottom padding for lists in settings",
-    "author": {
-      "login": "9at8"
-    },
+    "author": "9at8",
     "url": "https://github.com/microsoft/vscode/pull/101812",
     "createdAt": "2020-07-06T17:16:20Z",
     "mergedAt": "2020-07-06T18:45:35Z",
     "additions": 4,
     "deletions": 2,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-03T20:19:08Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-03T20:19:08Z",
+    "leadTimeSeconds": 5355,
+    "timeToMergeSeconds": 253587
   },
   {
     "title": "[Settings Editor] Remove debounce on key change in object type settings",
-    "author": {
-      "login": "9at8"
-    },
+    "author": "9at8",
     "url": "https://github.com/microsoft/vscode/pull/101811",
     "createdAt": "2020-07-06T17:13:53Z",
     "mergedAt": "2020-07-06T23:38:49Z",
     "additions": 9,
     "deletions": 14,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-03T20:23:21Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-03T20:23:21Z",
+    "leadTimeSeconds": 23096,
+    "timeToMergeSeconds": 270928
   },
   {
     "title": "[Settings Editor] Fix add button visibility in object settings",
-    "author": {
-      "login": "9at8"
-    },
+    "author": "9at8",
     "url": "https://github.com/microsoft/vscode/pull/101810",
     "createdAt": "2020-07-06T17:08:55Z",
     "mergedAt": "2020-07-06T23:38:30Z",
     "additions": 8,
     "deletions": 6,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-04T20:58:59Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-04T20:58:59Z",
+    "leadTimeSeconds": 23375,
+    "timeToMergeSeconds": 182371
   },
   {
     "title": "[Settings Editor] Don't add pairs with empty keys in object settings",
-    "author": {
-      "login": "9at8"
-    },
+    "author": "9at8",
     "url": "https://github.com/microsoft/vscode/pull/101809",
     "createdAt": "2020-07-06T16:51:55Z",
     "mergedAt": "2020-07-06T18:41:59Z",
     "additions": 1,
     "deletions": 1,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-04T21:16:20Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-04T21:16:20Z",
+    "leadTimeSeconds": 6604,
+    "timeToMergeSeconds": 163539
   },
   {
     "title": "[Settings Editor] Correctly handle null default values for objects",
-    "author": {
-      "login": "9at8"
-    },
+    "author": "9at8",
     "url": "https://github.com/microsoft/vscode/pull/101807",
     "createdAt": "2020-07-06T16:48:25Z",
     "mergedAt": "2020-07-06T23:11:09Z",
     "additions": 22,
     "deletions": 8,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-05T01:23:33Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-05T01:23:33Z",
+    "leadTimeSeconds": 22964,
+    "timeToMergeSeconds": 164856
   },
   {
     "title": "[Settings Editor] Reset object renderer model state if setting key changes",
-    "author": {
-      "login": "9at8"
-    },
+    "author": "9at8",
     "url": "https://github.com/microsoft/vscode/pull/101806",
     "createdAt": "2020-07-06T16:43:36Z",
     "mergedAt": "2020-07-06T23:13:39Z",
     "additions": 11,
     "deletions": 1,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-03T21:15:28Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-03T21:15:28Z",
+    "leadTimeSeconds": 23403,
+    "timeToMergeSeconds": 266291
   },
   {
     "title": "Clarify requirements, fix for smoke tests",
-    "author": {
-      "login": "Chuxel"
-    },
+    "author": "Chuxel",
     "url": "https://github.com/microsoft/vscode/pull/101801",
     "createdAt": "2020-07-06T15:54:50Z",
     "mergedAt": "2020-07-06T17:48:48Z",
     "additions": 15,
     "deletions": 6,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-06T15:52:04Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-06T15:52:04Z",
+    "leadTimeSeconds": 6838,
+    "timeToMergeSeconds": 7004
   },
   {
     "title": "Joao/release/1.47/101688",
-    "author": {
-      "login": "joaomoreno"
-    },
+    "author": "joaomoreno",
     "url": "https://github.com/microsoft/vscode/pull/101796",
     "createdAt": "2020-07-06T15:17:34Z",
     "mergedAt": "2020-07-06T15:23:29Z",
     "additions": 1,
     "deletions": 1,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-06T15:12:23Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-06T15:12:23Z",
+    "leadTimeSeconds": 355,
+    "timeToMergeSeconds": 666
   },
   {
     "title": "Ignore less cached data when more is available",
-    "author": {
-      "login": "jrieken"
-    },
+    "author": "jrieken",
     "url": "https://github.com/microsoft/vscode/pull/101778",
     "createdAt": "2020-07-06T06:25:43Z",
     "mergedAt": "2020-07-06T10:24:26Z",
     "additions": 6,
     "deletions": 0,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-06T06:22:54Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-06T06:22:54Z",
+    "leadTimeSeconds": 14323,
+    "timeToMergeSeconds": 14492
   },
   {
     "title": "saveUntitedBeforeShutdown -> saveUntitledBeforeShutdown",
-    "author": {
-      "login": "tony-xia"
-    },
+    "author": "tony-xia",
     "url": "https://github.com/microsoft/vscode/pull/101740",
     "createdAt": "2020-07-05T06:50:30Z",
     "mergedAt": "2020-07-06T05:55:37Z",
     "additions": 2,
     "deletions": 2,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-05T06:49:41Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-05T06:49:41Z",
+    "leadTimeSeconds": 83107,
+    "timeToMergeSeconds": 83156
   },
   {
     "title": "Typo: ICommontTelemetryPropertiesResolver -> ICommonTelemetryPropertiesResolver",
-    "author": {
-      "login": "tony-xia"
-    },
+    "author": "tony-xia",
     "url": "https://github.com/microsoft/vscode/pull/101739",
     "createdAt": "2020-07-05T06:42:19Z",
     "mergedAt": "2020-07-07T13:58:47Z",
     "additions": 3,
     "deletions": 3,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-05T06:41:34Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-05T06:41:34Z",
+    "leadTimeSeconds": 198988,
+    "timeToMergeSeconds": 199033
   },
   {
     "title": "Add new Makefile test case for upgraded syntax",
-    "author": {
-      "login": "fadeevab"
-    },
+    "author": "fadeevab",
     "url": "https://github.com/microsoft/vscode/pull/101719",
     "createdAt": "2020-07-04T18:17:51Z",
     "mergedAt": "2020-07-06T13:19:43Z",
     "additions": 68,
     "deletions": 0,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-04T17:54:04Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-04T17:54:04Z",
+    "leadTimeSeconds": 154912,
+    "timeToMergeSeconds": 156339
   },
   {
     "title": "fix #79275 enable encodings for web",
-    "author": {
-      "login": "gyzerok"
-    },
+    "author": "gyzerok",
     "url": "https://github.com/microsoft/vscode/pull/101706",
     "createdAt": "2020-07-04T02:40:40Z",
     "mergedAt": "2020-07-04T11:42:32Z",
     "additions": 266,
     "deletions": 296,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-04T01:35:15Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-04T01:35:15Z",
+    "leadTimeSeconds": 32512,
+    "timeToMergeSeconds": 36437
   },
   {
     "title": "remove jschardet typings workaround for #79275",
-    "author": {
-      "login": "gyzerok"
-    },
+    "author": "gyzerok",
     "url": "https://github.com/microsoft/vscode/pull/101705",
     "createdAt": "2020-07-03T23:55:09Z",
     "mergedAt": "2020-07-04T11:04:03Z",
     "additions": 1,
     "deletions": 5,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-03T23:53:20Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-03T23:53:20Z",
+    "leadTimeSeconds": 40134,
+    "timeToMergeSeconds": 40243
   },
   {
     "title": "Update notebook output width ",
-    "author": {
-      "login": "misolori"
-    },
+    "author": "misolori",
     "url": "https://github.com/microsoft/vscode/pull/101687",
     "createdAt": "2020-07-03T15:57:20Z",
     "mergedAt": "2020-07-06T17:34:37Z",
     "additions": 2,
     "deletions": 2,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-03T15:25:29Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-03T15:25:29Z",
+    "leadTimeSeconds": 265037,
+    "timeToMergeSeconds": 266948
   },
   {
     "title": "Show SCM uppercase in settings search titles",
-    "author": {
-      "login": "gjsjohnmurray"
-    },
+    "author": "gjsjohnmurray",
     "url": "https://github.com/microsoft/vscode/pull/101679",
     "createdAt": "2020-07-03T14:24:14Z",
     "mergedAt": "2020-07-04T01:10:39Z",
     "additions": 1,
     "deletions": 0,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-03T14:21:52Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-03T14:21:52Z",
+    "leadTimeSeconds": 38785,
+    "timeToMergeSeconds": 38927
   },
   {
     "title": "Improve text of SCM count badge settings",
-    "author": {
-      "login": "gjsjohnmurray"
-    },
+    "author": "gjsjohnmurray",
     "url": "https://github.com/microsoft/vscode/pull/101677",
     "createdAt": "2020-07-03T13:40:40Z",
     "mergedAt": "2020-07-06T07:52:27Z",
     "additions": 6,
     "deletions": 6,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-03T13:38:52Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-03T13:38:52Z",
+    "leadTimeSeconds": 238307,
+    "timeToMergeSeconds": 238415
   },
   {
     "title": "Check if focus changed",
-    "author": {
-      "login": "chrmarti"
-    },
+    "author": "chrmarti",
     "url": "https://github.com/microsoft/vscode/pull/101667",
     "createdAt": "2020-07-03T09:29:18Z",
     "mergedAt": "2020-07-03T09:37:08Z",
     "additions": 5,
     "deletions": 4,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-03T09:27:19Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-03T09:27:19Z",
+    "leadTimeSeconds": 470,
+    "timeToMergeSeconds": 589
   },
   {
     "title": "Check RAM before compiling",
-    "author": {
-      "login": "jrieken"
-    },
+    "author": "jrieken",
     "url": "https://github.com/microsoft/vscode/pull/101660",
     "createdAt": "2020-07-03T07:57:02Z",
     "mergedAt": "2020-07-06T10:45:15Z",
     "additions": 10,
     "deletions": 0,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-03T07:56:04Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-03T07:56:04Z",
+    "leadTimeSeconds": 269293,
+    "timeToMergeSeconds": 269351
   },
   {
     "title": "Added word boundary on tsserver regex",
-    "author": {
-      "login": "armanio123"
-    },
+    "author": "armanio123",
     "url": "https://github.com/microsoft/vscode/pull/101598",
     "createdAt": "2020-07-02T13:23:50Z",
     "mergedAt": "2020-07-02T20:18:58Z",
     "additions": 1,
     "deletions": 1,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-02T13:22:17Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-02T13:22:17Z",
+    "leadTimeSeconds": 24908,
+    "timeToMergeSeconds": 25001
   },
   {
     "title": ":up: jschardet@2.2.1 (#33720)",
-    "author": {
-      "login": "bpasero"
-    },
+    "author": "bpasero",
     "url": "https://github.com/microsoft/vscode/pull/101489",
     "createdAt": "2020-07-01T08:51:01Z",
     "mergedAt": "2020-07-03T13:53:03Z",
     "additions": 22,
     "deletions": 22,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-07-01T08:50:30Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-07-01T08:50:30Z",
+    "leadTimeSeconds": 190922,
+    "timeToMergeSeconds": 190953
   },
   {
     "title": "Move read and write logic from nativeTextFileService to textFileService for #79275",
-    "author": {
-      "login": "gyzerok"
-    },
+    "author": "gyzerok",
     "url": "https://github.com/microsoft/vscode/pull/100804",
     "createdAt": "2020-06-23T01:34:59Z",
     "mergedAt": "2020-07-03T13:55:45Z",
     "additions": 833,
     "deletions": 217,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-06-20T13:17:53Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-06-20T13:17:53Z",
+    "leadTimeSeconds": 908446,
+    "timeToMergeSeconds": 1125472
   },
   {
     "title": "Add \"pnpm\" option to \"npm.packageManager\" setting",
-    "author": {
-      "login": "Anoesj"
-    },
+    "author": "Anoesj",
     "url": "https://github.com/microsoft/vscode/pull/100654",
     "createdAt": "2020-06-20T15:39:18Z",
     "mergedAt": "2020-07-01T13:36:38Z",
     "additions": 3,
     "deletions": 2,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-06-20T14:55:50Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-06-20T14:55:50Z",
+    "leadTimeSeconds": 943040,
+    "timeToMergeSeconds": 945648
   },
   {
     "title": "#98942 Clear Search Pattern Fields",
-    "author": {
-      "login": "edjeffreys"
-    },
+    "author": "edjeffreys",
     "url": "https://github.com/microsoft/vscode/pull/100024",
     "createdAt": "2020-06-12T18:23:56Z",
     "mergedAt": "2020-07-04T01:34:38Z",
     "additions": 18,
     "deletions": 1,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-06-12T18:21:24Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-06-12T18:21:24Z",
+    "leadTimeSeconds": 1840242,
+    "timeToMergeSeconds": 1840394
   },
   {
     "title": "Feature #88480: Empty Lines Not Getting Commented-Out",
-    "author": {
-      "login": "alvintangz"
-    },
+    "author": "alvintangz",
     "url": "https://github.com/microsoft/vscode/pull/93160",
     "createdAt": "2020-03-22T01:43:05Z",
     "mergedAt": "2020-07-07T07:30:06Z",
     "additions": 149,
     "deletions": 19,
-    "commits": {
-      "nodes": [
-        {
-          "commit": {
-            "authoredDate": "2020-03-09T18:57:53Z"
-          }
-        }
-      ]
-    }
+    "authoredDate": "2020-03-09T18:57:53Z",
+    "leadTimeSeconds": 9265621,
+    "timeToMergeSeconds": 10326733
   }
 ]

@@ -1,9 +1,8 @@
 import fs from "fs";
-import { PullRequest } from "./types";
+import { PullRequest } from "./entity";
 import { uniq } from "underscore";
 import { median } from "mathjs";
 import { fetchAllMergedPullRequests } from "./github";
-import { parseISO } from "date-fns";
 
 interface StatCommandOptions {
   input: string | undefined;
@@ -17,7 +16,7 @@ export async function statCommand(options: StatCommandOptions): Promise<void> {
   if (options.query) {
     prs = await fetchAllMergedPullRequests(options.query, options.start, options.end);
   } else if (options.input) {
-    prs = JSON.parse(fs.readFileSync(options.input, "utf8"));
+    prs = createPullRequestsByLog(options.input);
   } else {
     console.error("You must specify either --query or --input");
     process.exit(1);
@@ -39,14 +38,12 @@ interface PullRequestStat {
   timeToMergeSecondsMedian: number;
 }
 export function createStat(prs: PullRequest[]): PullRequestStat {
-  const leadTimes = prs.map((pr) => (parseISO(pr.mergedAt).getTime() - parseISO(pr.createdAt).getTime()) / 1000);
-  const timeToMerges = prs.map(
-    (pr) => (parseISO(pr.mergedAt).getTime() - parseISO(pr.commits.nodes[0].commit.authoredDate).getTime()) / 1000
-  );
+  const leadTimes = prs.map((pr) => pr.leadTimeSeconds);
+  const timeToMerges = prs.map((pr) => pr.timeToMergeSeconds);
 
   return {
     count: prs.length,
-    authorCount: uniq(prs.map((pr) => pr.author.login)).length,
+    authorCount: uniq(prs.map((pr) => pr.author)).length,
     additionsAverage: average(prs.map((pr) => pr.additions)),
     additionsMedian: median(prs.map((pr) => pr.additions)),
     deletionsAverage: average(prs.map((pr) => pr.deletions)),
@@ -60,4 +57,13 @@ export function createStat(prs: PullRequest[]): PullRequestStat {
 
 function average(numbers: number[]): number {
   return numbers.reduce((prev, current) => prev + current) / numbers.length;
+}
+
+export function createPullRequestsByLog(path: string): PullRequest[] {
+  const logs = JSON.parse(fs.readFileSync(path, "utf8"));
+  return logs.map(
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (p: any) =>
+      new PullRequest(p.title, p.author, p.url, p.createdAt, p.mergedAt, p.additions, p.deletions, p.authoredDate)
+  );
 }

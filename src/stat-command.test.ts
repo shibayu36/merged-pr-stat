@@ -1,11 +1,9 @@
-import fs from "fs";
-import { PullRequest } from "./types";
-import { createStat } from "./stat-command";
+import { createStat, createPullRequestsByLog } from "./stat-command";
 import path from "path";
 
 describe("createStat", () => {
   it("can make stat by simple-log", () => {
-    const prs: PullRequest[] = JSON.parse(fs.readFileSync(path.resolve(__dirname, "testdata/simple-log.json"), "utf8"));
+    const prs = createPullRequestsByLog(path.resolve(__dirname, "testdata/simple-log.json"));
     const stat = createStat(prs);
     expect(stat).toMatchInlineSnapshot(`
       Object {
@@ -24,9 +22,7 @@ describe("createStat", () => {
   });
 
   it("can make stat by repo-vscode", () => {
-    const prs: PullRequest[] = JSON.parse(
-      fs.readFileSync(path.resolve(__dirname, "testdata/log-repo-vscode.json"), "utf8")
-    );
+    const prs = createPullRequestsByLog(path.resolve(__dirname, "testdata/log-repo-vscode.json"));
     const stat = createStat(prs);
     expect(stat).toMatchInlineSnapshot(`
       Object {

@@ -1,5 +1,5 @@
 import { GraphQLClient, gql } from "graphql-request";
-import { PullRequest } from "./types";
+import { PullRequest } from "./entity";
 import { parseISO } from "date-fns";
 
 const GITHUB_GRAPHQL_ENDPOINT = "https://api.github.com/graphql";
@@ -25,6 +25,25 @@ export async function fetchAllMergedPullRequests(
   }
 
   return fetchAllPullRequestsByQuery(q);
+}
+
+interface PullRequestNode {
+  title: string;
+  author: {
+    login: string;
+  };
+  url: string;
+  createdAt: string;
+  mergedAt: string;
+  additions: number;
+  deletions: number;
+  commits: {
+    nodes: {
+      commit: {
+        authoredDate: string;
+      };
+    }[];
+  };
 }
 
 async function fetchAllPullRequestsByQuery(searchQuery: string): Promise<PullRequest[]> {
@@ -72,7 +91,21 @@ async function fetchAllPullRequestsByQuery(searchQuery: string): Promise<PullReq
   // eslint-disable-next-line no-constant-condition
   while (true) {
     const data = await graphQLClient.request(query, { after });
-    prs = prs.concat(data.search.nodes as PullRequest[]);
+    prs = prs.concat(
+      data.search.nodes.map(
+        (p: PullRequestNode) =>
+          new PullRequest(
+            p.title,
+            p.author.login,
+            p.url,
+            p.createdAt,
+            p.mergedAt,
+            p.additions,
+            p.deletions,
+            p.commits.nodes[0].commit.authoredDate
+          )
+      )
+    );
 
     if (!data.search.pageInfo.hasNextPage) break;
 
