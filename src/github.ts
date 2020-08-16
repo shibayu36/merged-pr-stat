@@ -43,6 +43,14 @@ async function fetchAllPullRequestsByQuery(searchQuery: string): Promise<PullReq
             mergedAt
             additions
             deletions
+            # for time to merge
+            commits(first:1) {
+              nodes {
+                commit {
+                  authoredDate
+                }
+              }
+            }
           }
         }
         pageInfo {

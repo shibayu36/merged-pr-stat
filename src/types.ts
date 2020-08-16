@@ -8,4 +8,11 @@ export interface PullRequest {
   mergedAt: string;
   additions: number;
   deletions: number;
+  commits: {
+    nodes: {
+      commit: {
+        authoredDate: string;
+      };
+    }[];
+  };
 }

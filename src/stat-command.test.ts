@@ -17,6 +17,8 @@ describe("createStat", () => {
         "deletionsMedian": 23.5,
         "leadTimeSecondsAverage": 2591489,
         "leadTimeSecondsMedian": 549684,
+        "timeToMergeSecondsAverage": 2911116,
+        "timeToMergeSecondsMedian": 658212,
       }
     `);
   });
@@ -36,6 +38,8 @@ describe("createStat", () => {
         "deletionsMedian": 3,
         "leadTimeSecondsAverage": 541799,
         "leadTimeSecondsMedian": 32512,
+        "timeToMergeSecondsAverage": 633907,
+        "timeToMergeSecondsMedian": 164856,
       }
     `);
   });

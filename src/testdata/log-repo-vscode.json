@@ -8,7 +8,16 @@
     "createdAt": "2020-07-07T12:09:03Z",
     "mergedAt": "2020-07-07T12:25:10Z",
     "additions": 36,
-    "deletions": 25
+    "deletions": 25,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-07T12:03:23Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "Fixes quick find symbol finder shows 'no matching results' after backspace",
@@ -19,7 +28,16 @@
     "createdAt": "2020-07-07T09:31:01Z",
     "mergedAt": "2020-07-07T11:20:42Z",
     "additions": 11,
-    "deletions": 7
+    "deletions": 7,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-07T09:27:08Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "[Settings Editor] Add extra bottom padding for lists in settings",
@@ -30,7 +48,16 @@
     "createdAt": "2020-07-06T17:16:20Z",
     "mergedAt": "2020-07-06T18:45:35Z",
     "additions": 4,
-    "deletions": 2
+    "deletions": 2,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-03T20:19:08Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "[Settings Editor] Remove debounce on key change in object type settings",
@@ -41,7 +68,16 @@
     "createdAt": "2020-07-06T17:13:53Z",
     "mergedAt": "2020-07-06T23:38:49Z",
     "additions": 9,
-    "deletions": 14
+    "deletions": 14,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-03T20:23:21Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "[Settings Editor] Fix add button visibility in object settings",
@@ -52,7 +88,16 @@
     "createdAt": "2020-07-06T17:08:55Z",
     "mergedAt": "2020-07-06T23:38:30Z",
     "additions": 8,
-    "deletions": 6
+    "deletions": 6,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-04T20:58:59Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "[Settings Editor] Don't add pairs with empty keys in object settings",
@@ -63,7 +108,16 @@
     "createdAt": "2020-07-06T16:51:55Z",
     "mergedAt": "2020-07-06T18:41:59Z",
     "additions": 1,
-    "deletions": 1
+    "deletions": 1,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-04T21:16:20Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "[Settings Editor] Correctly handle null default values for objects",
@@ -74,7 +128,16 @@
     "createdAt": "2020-07-06T16:48:25Z",
     "mergedAt": "2020-07-06T23:11:09Z",
     "additions": 22,
-    "deletions": 8
+    "deletions": 8,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-05T01:23:33Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "[Settings Editor] Reset object renderer model state if setting key changes",
@@ -85,7 +148,16 @@
     "createdAt": "2020-07-06T16:43:36Z",
     "mergedAt": "2020-07-06T23:13:39Z",
     "additions": 11,
-    "deletions": 1
+    "deletions": 1,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-03T21:15:28Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "Clarify requirements, fix for smoke tests",
@@ -96,7 +168,16 @@
     "createdAt": "2020-07-06T15:54:50Z",
     "mergedAt": "2020-07-06T17:48:48Z",
     "additions": 15,
-    "deletions": 6
+    "deletions": 6,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-06T15:52:04Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "Joao/release/1.47/101688",
@@ -107,7 +188,16 @@
     "createdAt": "2020-07-06T15:17:34Z",
     "mergedAt": "2020-07-06T15:23:29Z",
     "additions": 1,
-    "deletions": 1
+    "deletions": 1,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-06T15:12:23Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "Ignore less cached data when more is available",
@@ -118,7 +208,16 @@
     "createdAt": "2020-07-06T06:25:43Z",
     "mergedAt": "2020-07-06T10:24:26Z",
     "additions": 6,
-    "deletions": 0
+    "deletions": 0,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-06T06:22:54Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "saveUntitedBeforeShutdown -> saveUntitledBeforeShutdown",
@@ -129,7 +228,16 @@
     "createdAt": "2020-07-05T06:50:30Z",
     "mergedAt": "2020-07-06T05:55:37Z",
     "additions": 2,
-    "deletions": 2
+    "deletions": 2,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-05T06:49:41Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "Typo: ICommontTelemetryPropertiesResolver -> ICommonTelemetryPropertiesResolver",
@@ -140,7 +248,16 @@
     "createdAt": "2020-07-05T06:42:19Z",
     "mergedAt": "2020-07-07T13:58:47Z",
     "additions": 3,
-    "deletions": 3
+    "deletions": 3,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-05T06:41:34Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "Add new Makefile test case for upgraded syntax",
@@ -151,7 +268,16 @@
     "createdAt": "2020-07-04T18:17:51Z",
     "mergedAt": "2020-07-06T13:19:43Z",
     "additions": 68,
-    "deletions": 0
+    "deletions": 0,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-04T17:54:04Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "fix #79275 enable encodings for web",
@@ -162,7 +288,16 @@
     "createdAt": "2020-07-04T02:40:40Z",
     "mergedAt": "2020-07-04T11:42:32Z",
     "additions": 266,
-    "deletions": 296
+    "deletions": 296,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-04T01:35:15Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "remove jschardet typings workaround for #79275",
@@ -173,7 +308,16 @@
     "createdAt": "2020-07-03T23:55:09Z",
     "mergedAt": "2020-07-04T11:04:03Z",
     "additions": 1,
-    "deletions": 5
+    "deletions": 5,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-03T23:53:20Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "Update notebook output width ",
@@ -184,7 +328,16 @@
     "createdAt": "2020-07-03T15:57:20Z",
     "mergedAt": "2020-07-06T17:34:37Z",
     "additions": 2,
-    "deletions": 2
+    "deletions": 2,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-03T15:25:29Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "Show SCM uppercase in settings search titles",
@@ -195,7 +348,16 @@
     "createdAt": "2020-07-03T14:24:14Z",
     "mergedAt": "2020-07-04T01:10:39Z",
     "additions": 1,
-    "deletions": 0
+    "deletions": 0,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-03T14:21:52Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "Improve text of SCM count badge settings",
@@ -206,7 +368,16 @@
     "createdAt": "2020-07-03T13:40:40Z",
     "mergedAt": "2020-07-06T07:52:27Z",
     "additions": 6,
-    "deletions": 6
+    "deletions": 6,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-03T13:38:52Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "Check if focus changed",
@@ -217,7 +388,16 @@
     "createdAt": "2020-07-03T09:29:18Z",
     "mergedAt": "2020-07-03T09:37:08Z",
     "additions": 5,
-    "deletions": 4
+    "deletions": 4,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-03T09:27:19Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "Check RAM before compiling",
@@ -228,7 +408,16 @@
     "createdAt": "2020-07-03T07:57:02Z",
     "mergedAt": "2020-07-06T10:45:15Z",
     "additions": 10,
-    "deletions": 0
+    "deletions": 0,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-03T07:56:04Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "Added word boundary on tsserver regex",
@@ -239,7 +428,16 @@
     "createdAt": "2020-07-02T13:23:50Z",
     "mergedAt": "2020-07-02T20:18:58Z",
     "additions": 1,
-    "deletions": 1
+    "deletions": 1,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-02T13:22:17Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": ":up: jschardet@2.2.1 (#33720)",
@@ -250,7 +448,16 @@
     "createdAt": "2020-07-01T08:51:01Z",
     "mergedAt": "2020-07-03T13:53:03Z",
     "additions": 22,
-    "deletions": 22
+    "deletions": 22,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-07-01T08:50:30Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "Move read and write logic from nativeTextFileService to textFileService for #79275",
@@ -261,7 +468,16 @@
     "createdAt": "2020-06-23T01:34:59Z",
     "mergedAt": "2020-07-03T13:55:45Z",
     "additions": 833,
-    "deletions": 217
+    "deletions": 217,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-06-20T13:17:53Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "Add \"pnpm\" option to \"npm.packageManager\" setting",
@@ -272,7 +488,16 @@
     "createdAt": "2020-06-20T15:39:18Z",
     "mergedAt": "2020-07-01T13:36:38Z",
     "additions": 3,
-    "deletions": 2
+    "deletions": 2,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-06-20T14:55:50Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "#98942 Clear Search Pattern Fields",
@@ -283,7 +508,16 @@
     "createdAt": "2020-06-12T18:23:56Z",
     "mergedAt": "2020-07-04T01:34:38Z",
     "additions": 18,
-    "deletions": 1
+    "deletions": 1,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-06-12T18:21:24Z"
+          }
+        }
+      ]
+    }
   },
   {
     "title": "Feature #88480: Empty Lines Not Getting Commented-Out",
@@ -294,6 +528,15 @@
     "createdAt": "2020-03-22T01:43:05Z",
     "mergedAt": "2020-07-07T07:30:06Z",
     "additions": 149,
-    "deletions": 19
+    "deletions": 19,
+    "commits": {
+      "nodes": [
+        {
+          "commit": {
+            "authoredDate": "2020-03-09T18:57:53Z"
+          }
+        }
+      ]
+    }
   }
 ]

@@ -35,9 +35,14 @@ interface PullRequestStat {
   deletionsMedian: number;
   leadTimeSecondsAverage: number;
   leadTimeSecondsMedian: number;
+  timeToMergeSecondsAverage: number;
+  timeToMergeSecondsMedian: number;
 }
 export function createStat(prs: PullRequest[]): PullRequestStat {
   const leadTimes = prs.map((pr) => (parseISO(pr.mergedAt).getTime() - parseISO(pr.createdAt).getTime()) / 1000);
+  const timeToMerges = prs.map(
+    (pr) => (parseISO(pr.mergedAt).getTime() - parseISO(pr.commits.nodes[0].commit.authoredDate).getTime()) / 1000
+  );
 
   return {
     count: prs.length,
@@ -48,6 +53,8 @@ export function createStat(prs: PullRequest[]): PullRequestStat {
     deletionsMedian: median(prs.map((pr) => pr.deletions)),
     leadTimeSecondsAverage: Math.floor(average(leadTimes)),
     leadTimeSecondsMedian: Math.floor(median(leadTimes)),
+    timeToMergeSecondsAverage: Math.floor(average(timeToMerges)),
+    timeToMergeSecondsMedian: Math.floor(median(timeToMerges)),
   };
 }
 
