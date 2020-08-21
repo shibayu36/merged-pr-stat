@@ -109,7 +109,7 @@ async function fetchAllPullRequestsByQuery(searchQuery: string): Promise<PullReq
 
     if (!data.search.pageInfo.hasNextPage) break;
 
-    console.error(JSON.stringify(data, undefined, 2));
+    // console.error(JSON.stringify(data, undefined, 2));
 
     after = data.search.pageInfo.endCursor;
   }
