@@ -8,8 +8,8 @@
     "additions": 36,
     "deletions": 25,
     "authoredDate": "2020-07-07T12:03:23Z",
-    "leadTimeSeconds": 967,
-    "timeToMergeSeconds": 1307
+    "leadTimeSeconds": 1307,
+    "timeToMergeSeconds": 967
   },
   {
     "title": "Fixes quick find symbol finder shows 'no matching results' after backspace",
@@ -20,8 +20,8 @@
     "additions": 11,
     "deletions": 7,
     "authoredDate": "2020-07-07T09:27:08Z",
-    "leadTimeSeconds": 6581,
-    "timeToMergeSeconds": 6814
+    "leadTimeSeconds": 6814,
+    "timeToMergeSeconds": 6581
   },
   {
     "title": "[Settings Editor] Add extra bottom padding for lists in settings",
@@ -32,8 +32,8 @@
     "additions": 4,
     "deletions": 2,
     "authoredDate": "2020-07-03T20:19:08Z",
-    "leadTimeSeconds": 5355,
-    "timeToMergeSeconds": 253587
+    "leadTimeSeconds": 253587,
+    "timeToMergeSeconds": 5355
   },
   {
     "title": "[Settings Editor] Remove debounce on key change in object type settings",
@@ -44,8 +44,8 @@
     "additions": 9,
     "deletions": 14,
     "authoredDate": "2020-07-03T20:23:21Z",
-    "leadTimeSeconds": 23096,
-    "timeToMergeSeconds": 270928
+    "leadTimeSeconds": 270928,
+    "timeToMergeSeconds": 23096
   },
   {
     "title": "[Settings Editor] Fix add button visibility in object settings",
@@ -56,8 +56,8 @@
     "additions": 8,
     "deletions": 6,
     "authoredDate": "2020-07-04T20:58:59Z",
-    "leadTimeSeconds": 23375,
-    "timeToMergeSeconds": 182371
+    "leadTimeSeconds": 182371,
+    "timeToMergeSeconds": 23375
   },
   {
     "title": "[Settings Editor] Don't add pairs with empty keys in object settings",
@@ -68,8 +68,8 @@
     "additions": 1,
     "deletions": 1,
     "authoredDate": "2020-07-04T21:16:20Z",
-    "leadTimeSeconds": 6604,
-    "timeToMergeSeconds": 163539
+    "leadTimeSeconds": 163539,
+    "timeToMergeSeconds": 6604
   },
   {
     "title": "[Settings Editor] Correctly handle null default values for objects",
@@ -80,8 +80,8 @@
     "additions": 22,
     "deletions": 8,
     "authoredDate": "2020-07-05T01:23:33Z",
-    "leadTimeSeconds": 22964,
-    "timeToMergeSeconds": 164856
+    "leadTimeSeconds": 164856,
+    "timeToMergeSeconds": 22964
   },
   {
     "title": "[Settings Editor] Reset object renderer model state if setting key changes",
@@ -92,8 +92,8 @@
     "additions": 11,
     "deletions": 1,
     "authoredDate": "2020-07-03T21:15:28Z",
-    "leadTimeSeconds": 23403,
-    "timeToMergeSeconds": 266291
+    "leadTimeSeconds": 266291,
+    "timeToMergeSeconds": 23403
   },
   {
     "title": "Clarify requirements, fix for smoke tests",
@@ -104,8 +104,8 @@
     "additions": 15,
     "deletions": 6,
     "authoredDate": "2020-07-06T15:52:04Z",
-    "leadTimeSeconds": 6838,
-    "timeToMergeSeconds": 7004
+    "leadTimeSeconds": 7004,
+    "timeToMergeSeconds": 6838
   },
   {
     "title": "Joao/release/1.47/101688",
@@ -116,8 +116,8 @@
     "additions": 1,
     "deletions": 1,
     "authoredDate": "2020-07-06T15:12:23Z",
-    "leadTimeSeconds": 355,
-    "timeToMergeSeconds": 666
+    "leadTimeSeconds": 666,
+    "timeToMergeSeconds": 355
   },
   {
     "title": "Ignore less cached data when more is available",
@@ -128,8 +128,8 @@
     "additions": 6,
     "deletions": 0,
     "authoredDate": "2020-07-06T06:22:54Z",
-    "leadTimeSeconds": 14323,
-    "timeToMergeSeconds": 14492
+    "leadTimeSeconds": 14492,
+    "timeToMergeSeconds": 14323
   },
   {
     "title": "saveUntitedBeforeShutdown -> saveUntitledBeforeShutdown",
@@ -140,8 +140,8 @@
     "additions": 2,
     "deletions": 2,
     "authoredDate": "2020-07-05T06:49:41Z",
-    "leadTimeSeconds": 83107,
-    "timeToMergeSeconds": 83156
+    "leadTimeSeconds": 83156,
+    "timeToMergeSeconds": 83107
   },
   {
     "title": "Typo: ICommontTelemetryPropertiesResolver -> ICommonTelemetryPropertiesResolver",
@@ -152,8 +152,8 @@
     "additions": 3,
     "deletions": 3,
     "authoredDate": "2020-07-05T06:41:34Z",
-    "leadTimeSeconds": 198988,
-    "timeToMergeSeconds": 199033
+    "leadTimeSeconds": 199033,
+    "timeToMergeSeconds": 198988
   },
   {
     "title": "Add new Makefile test case for upgraded syntax",
@@ -164,8 +164,8 @@
     "additions": 68,
     "deletions": 0,
     "authoredDate": "2020-07-04T17:54:04Z",
-    "leadTimeSeconds": 154912,
-    "timeToMergeSeconds": 156339
+    "leadTimeSeconds": 156339,
+    "timeToMergeSeconds": 154912
   },
   {
     "title": "fix #79275 enable encodings for web",
@@ -176,8 +176,8 @@
     "additions": 266,
     "deletions": 296,
     "authoredDate": "2020-07-04T01:35:15Z",
-    "leadTimeSeconds": 32512,
-    "timeToMergeSeconds": 36437
+    "leadTimeSeconds": 36437,
+    "timeToMergeSeconds": 32512
   },
   {
     "title": "remove jschardet typings workaround for #79275",
@@ -188,8 +188,8 @@
     "additions": 1,
     "deletions": 5,
     "authoredDate": "2020-07-03T23:53:20Z",
-    "leadTimeSeconds": 40134,
-    "timeToMergeSeconds": 40243
+    "leadTimeSeconds": 40243,
+    "timeToMergeSeconds": 40134
   },
   {
     "title": "Update notebook output width ",
@@ -200,8 +200,8 @@
     "additions": 2,
     "deletions": 2,
     "authoredDate": "2020-07-03T15:25:29Z",
-    "leadTimeSeconds": 265037,
-    "timeToMergeSeconds": 266948
+    "leadTimeSeconds": 266948,
+    "timeToMergeSeconds": 265037
   },
   {
     "title": "Show SCM uppercase in settings search titles",
@@ -212,8 +212,8 @@
     "additions": 1,
     "deletions": 0,
     "authoredDate": "2020-07-03T14:21:52Z",
-    "leadTimeSeconds": 38785,
-    "timeToMergeSeconds": 38927
+    "leadTimeSeconds": 38927,
+    "timeToMergeSeconds": 38785
   },
   {
     "title": "Improve text of SCM count badge settings",
@@ -224,8 +224,8 @@
     "additions": 6,
     "deletions": 6,
     "authoredDate": "2020-07-03T13:38:52Z",
-    "leadTimeSeconds": 238307,
-    "timeToMergeSeconds": 238415
+    "leadTimeSeconds": 238415,
+    "timeToMergeSeconds": 238307
   },
   {
     "title": "Check if focus changed",
@@ -236,8 +236,8 @@
     "additions": 5,
     "deletions": 4,
     "authoredDate": "2020-07-03T09:27:19Z",
-    "leadTimeSeconds": 470,
-    "timeToMergeSeconds": 589
+    "leadTimeSeconds": 589,
+    "timeToMergeSeconds": 470
   },
   {
     "title": "Check RAM before compiling",
@@ -248,8 +248,8 @@
     "additions": 10,
     "deletions": 0,
     "authoredDate": "2020-07-03T07:56:04Z",
-    "leadTimeSeconds": 269293,
-    "timeToMergeSeconds": 269351
+    "leadTimeSeconds": 269351,
+    "timeToMergeSeconds": 269293
   },
   {
     "title": "Added word boundary on tsserver regex",
@@ -260,8 +260,8 @@
     "additions": 1,
     "deletions": 1,
     "authoredDate": "2020-07-02T13:22:17Z",
-    "leadTimeSeconds": 24908,
-    "timeToMergeSeconds": 25001
+    "leadTimeSeconds": 25001,
+    "timeToMergeSeconds": 24908
   },
   {
     "title": ":up: jschardet@2.2.1 (#33720)",
@@ -272,8 +272,8 @@
     "additions": 22,
     "deletions": 22,
     "authoredDate": "2020-07-01T08:50:30Z",
-    "leadTimeSeconds": 190922,
-    "timeToMergeSeconds": 190953
+    "leadTimeSeconds": 190953,
+    "timeToMergeSeconds": 190922
   },
   {
     "title": "Move read and write logic from nativeTextFileService to textFileService for #79275",
@@ -284,8 +284,8 @@
     "additions": 833,
     "deletions": 217,
     "authoredDate": "2020-06-20T13:17:53Z",
-    "leadTimeSeconds": 908446,
-    "timeToMergeSeconds": 1125472
+    "leadTimeSeconds": 1125472,
+    "timeToMergeSeconds": 908446
   },
   {
     "title": "Add \"pnpm\" option to \"npm.packageManager\" setting",
@@ -296,8 +296,8 @@
     "additions": 3,
     "deletions": 2,
     "authoredDate": "2020-06-20T14:55:50Z",
-    "leadTimeSeconds": 943040,
-    "timeToMergeSeconds": 945648
+    "leadTimeSeconds": 945648,
+    "timeToMergeSeconds": 943040
   },
   {
     "title": "#98942 Clear Search Pattern Fields",
@@ -308,8 +308,8 @@
     "additions": 18,
     "deletions": 1,
     "authoredDate": "2020-06-12T18:21:24Z",
-    "leadTimeSeconds": 1840242,
-    "timeToMergeSeconds": 1840394
+    "leadTimeSeconds": 1840394,
+    "timeToMergeSeconds": 1840242
   },
   {
     "title": "Feature #88480: Empty Lines Not Getting Commented-Out",
@@ -320,7 +320,7 @@
     "additions": 149,
     "deletions": 19,
     "authoredDate": "2020-03-09T18:57:53Z",
-    "leadTimeSeconds": 9265621,
-    "timeToMergeSeconds": 10326733
+    "leadTimeSeconds": 10326733,
+    "timeToMergeSeconds": 9265621
   }
 ]

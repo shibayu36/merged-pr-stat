@@ -36,8 +36,9 @@ output is
 * additionsMedian: the median of number of added lines
 * deletionsAverage: the average of number of deleted lines
 * deletionsMedian: the median of number of deleted lines
-* leadTimeSecondsAverage: the average of seconds between a PullRequest created and a PullRequest merged
-* leadTimeSecondsMedian: the median of seconds between a PullRequest created and a PullRequest merged
-* timeToMergeSecondsAverage: the average of seconds between a first commit date and a PullRequest merged date
+* leadTimeSecondsAverage: the average of seconds between a first commit date and a PullRequest merged date
+* leadTimeSecondsMedian: the median of seconds between a first commit date and a PullRequest merged date
+* timeToMergeSecondsAverage: the average of seconds between a PullRequest created and a PullRequest merged
+* timeToMergeSecondsMedian: the median of seconds between a PullRequest created and a PullRequest merged
 
 If you want to know about leadTime and timeToMerge for details, See https://sourcelevel.io/blog/5-metrics-engineering-managers-can-extract-from-pull-requests

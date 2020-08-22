@@ -62,7 +62,7 @@ async function fetchAllPullRequestsByQuery(searchQuery: string): Promise<PullReq
             mergedAt
             additions
             deletions
-            # for time to merge
+            # for lead time
             commits(first:1) {
               nodes {
                 commit {

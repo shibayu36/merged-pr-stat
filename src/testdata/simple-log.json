@@ -8,8 +8,8 @@
     "additions": 36,
     "deletions": 25,
     "authoredDate": "2020-07-07T12:03:23Z",
-    "leadTimeSeconds": 967,
-    "timeToMergeSeconds": 1307
+    "leadTimeSeconds": 1307,
+    "timeToMergeSeconds": 967
   },
   {
     "title": ":up: jschardet@2.2.1 (#33720)",
@@ -20,8 +20,8 @@
     "additions": 22,
     "deletions": 22,
     "authoredDate": "2020-07-01T08:50:30Z",
-    "leadTimeSeconds": 190922,
-    "timeToMergeSeconds": 190953
+    "leadTimeSeconds": 190953,
+    "timeToMergeSeconds": 190922
   },
   {
     "title": "Move read and write logic from nativeTextFileService to textFileService for #79275",
@@ -32,8 +32,8 @@
     "additions": 833,
     "deletions": 217,
     "authoredDate": "2020-06-20T13:17:53Z",
-    "leadTimeSeconds": 908446,
-    "timeToMergeSeconds": 1125472
+    "leadTimeSeconds": 1125472,
+    "timeToMergeSeconds": 908446
   },
   {
     "title": "Feature #88480: Empty Lines Not Getting Commented-Out",
@@ -44,7 +44,7 @@
     "additions": 149,
     "deletions": 19,
     "authoredDate": "2020-03-09T18:57:53Z",
-    "leadTimeSeconds": 9265621,
-    "timeToMergeSeconds": 10326733
+    "leadTimeSeconds": 10326733,
+    "timeToMergeSeconds": 9265621
   }
 ]

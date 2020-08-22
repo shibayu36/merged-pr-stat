@@ -15,7 +15,7 @@ export class PullRequest {
     public authoredDate: string
   ) {
     const mergedAtMillis = parseISO(this.mergedAt).getTime();
-    this.leadTimeSeconds = (mergedAtMillis - parseISO(this.createdAt).getTime()) / 1000;
-    this.timeToMergeSeconds = (mergedAtMillis - parseISO(this.authoredDate).getTime()) / 1000;
+    this.leadTimeSeconds = (mergedAtMillis - parseISO(this.authoredDate).getTime()) / 1000;
+    this.timeToMergeSeconds = (mergedAtMillis - parseISO(this.createdAt).getTime()) / 1000;
   }
 }

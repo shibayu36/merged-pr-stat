@@ -13,10 +13,10 @@ describe("createStat", () => {
         "count": 4,
         "deletionsAverage": 70.75,
         "deletionsMedian": 23.5,
-        "leadTimeSecondsAverage": 2591489,
-        "leadTimeSecondsMedian": 549684,
-        "timeToMergeSecondsAverage": 2911116,
-        "timeToMergeSecondsMedian": 658212,
+        "leadTimeSecondsAverage": 2911116,
+        "leadTimeSecondsMedian": 658212,
+        "timeToMergeSecondsAverage": 2591489,
+        "timeToMergeSecondsMedian": 549684,
       }
     `);
   });
@@ -32,10 +32,10 @@ describe("createStat", () => {
         "count": 27,
         "deletionsAverage": 24.11111111111111,
         "deletionsMedian": 3,
-        "leadTimeSecondsAverage": 541799,
-        "leadTimeSecondsMedian": 32512,
-        "timeToMergeSecondsAverage": 633907,
-        "timeToMergeSecondsMedian": 164856,
+        "leadTimeSecondsAverage": 633907,
+        "leadTimeSecondsMedian": 164856,
+        "timeToMergeSecondsAverage": 541799,
+        "timeToMergeSecondsMedian": 32512,
       }
     `);
   });
