@@ -42,3 +42,12 @@ output is
 * timeToMergeSecondsMedian: the median of seconds between a PullRequest created and a PullRequest merged
 
 If you want to know about leadTime and timeToMerge for details, See https://sourcelevel.io/blog/5-metrics-engineering-managers-can-extract-from-pull-requests
+
+### log command
+If you want to get raw information about PullRequests, you can use `log` command.
+
+```
+$ GITHUB_TOKEN=... merged-pr-stat log --start=2020-07-01T00:00:00 --end=2020-07-30T23:59:59 --query="repo:microsoft/vscode repo:microsoft/TypeScript"
+```
+
+Use `--format` option if you need other formats (ex. csv).
