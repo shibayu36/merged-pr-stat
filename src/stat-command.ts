@@ -1,7 +1,7 @@
 import fs from "fs";
 import { PullRequest } from "./entity";
 import { uniq } from "underscore";
-import { median } from "mathjs";
+import { median as _median } from "mathjs";
 import { fetchAllMergedPullRequests } from "./github";
 
 interface StatCommandOptions {
@@ -56,7 +56,13 @@ export function createStat(prs: PullRequest[]): PullRequestStat {
 }
 
 function average(numbers: number[]): number {
+  if (numbers.length === 0) return 0;
   return numbers.reduce((prev, current) => prev + current) / numbers.length;
+}
+
+function median(numbers: number[]): number {
+  if (numbers.length === 0) return 0;
+  return _median(numbers);
 }
 
 export function createPullRequestsByLog(path: string): PullRequest[] {
