@@ -18,7 +18,8 @@ async function main(): Promise<void> {
     .requiredOption("--start <date>", "start date")
     .requiredOption("--end <date>", "end date")
     .requiredOption("--query <search query>", "query for github search")
-    .option("--format <format>", "output format.  The available is json or csv", "json")
+    .option("--format <format>", "output format.  The available is json, csv or tsv", "json")
+    .option("--quoted", "quotes only if you specify csv or tsv as a format option")
     .action(logCommand);
 
   program.parse(process.argv);
