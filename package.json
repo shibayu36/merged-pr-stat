@@ -39,10 +39,16 @@
     "webpack-cli": "^3.3.12"
   },
   "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "bin",
     "dist"
   ],
   "homepage": "https://github.com/shibayu36/merged-pr-stat#readme",
   "license": "MIT",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/shibayu36/merged-pr-stat.git"
