@@ -1,21 +1,27 @@
 {
-  "name": "merged-pr-stat",
+  "name": "@shibayu36/merged-pr-stat",
+  "description": "A tool to create merged PullRequest statistics",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "author": {
+    "name": "shibayu36",
+    "email": "shibayu36@gmail.com",
+    "url": "https://github.com/shibayu36"
+  },
   "bin": {
     "merged-pr-stat": "bin/merged-pr-stat.js"
   },
-  "scripts": {
-    "test": "jest",
-    "build": "webpack --silent",
-    "exec": "npm run --silent build && node dist/index.js",
-    "lint": "eslint . --ext 'ts,js'",
-    "lint:fix": "eslint . --fix --ext 'ts,js'"
+  "bugs": {
+    "url": "https://github.com/shibayu36/merged-pr-stat/issues"
   },
-  "author": "",
-  "license": "MIT",
-  "private": true,
+  "dependencies": {
+    "commander": "^6.0.0",
+    "csv-stringify": "^5.5.1",
+    "date-fns": "^2.15.0",
+    "graphql": "^15.3.0",
+    "graphql-request": "^3.0.0",
+    "mathjs": "^7.1.0",
+    "underscore": "^1.10.2"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.9",
     "@types/mathjs": "^6.0.5",
@@ -35,13 +41,26 @@
     "webpack": "^4.44.0",
     "webpack-cli": "^3.3.12"
   },
-  "dependencies": {
-    "commander": "^6.0.0",
-    "csv-stringify": "^5.5.1",
-    "date-fns": "^2.15.0",
-    "graphql": "^15.3.0",
-    "graphql-request": "^3.0.0",
-    "mathjs": "^7.1.0",
-    "underscore": "^1.10.2"
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "bin",
+    "dist"
+  ],
+  "homepage": "https://github.com/shibayu36/merged-pr-stat#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shibayu36/merged-pr-stat.git"
+  },
+  "scripts": {
+    "build": "webpack --silent",
+    "exec": "npm run --silent build && node dist/index.js",
+    "lint": "eslint . --ext 'ts,js'",
+    "lint:fix": "eslint . --fix --ext 'ts,js'",
+    "test": "jest"
   }
 }
