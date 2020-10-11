@@ -1,6 +1,6 @@
 language: node_js
 install:
-  - yarn --frozen-lockfile
+  - yarn install --frozen-lockfile
 script:
   - yarn lint
   - yarn test
