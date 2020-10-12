@@ -50,4 +50,5 @@ If you want to get raw information about PullRequests, you can use `log` command
 $ GITHUB_TOKEN=... merged-pr-stat log --start=2020-07-01T00:00:00 --end=2020-07-30T23:59:59 --query="repo:microsoft/vscode repo:microsoft/TypeScript"
 ```
 
-Use `--format` option if you need other formats (ex. csv).
+Use `--format` option if you need other formats (ex. csv, tsv).
+Use `--quoted` option if you need the quotes (available only if the `--format` option is set to csv or tsv).
