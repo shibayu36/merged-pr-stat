@@ -51,3 +51,11 @@ $ GITHUB_TOKEN=... merged-pr-stat log --start=2020-07-01T00:00:00 --end=2020-07-
 ```
 
 Use `--format` option if you need other formats (ex. csv).
+
+## GitHub Enterprise Support
+In case you are using GitHub Enterprise, you can use by setting `GITHUB_ENDPOINT=https://<HOST>/api/graphql`.  
+
+For example 
+```
+$ GITHUB_TOKEN=... GITHUB_ENDPOINT=https://<HOST>/api/graphql merged-pr-stat --start=2020-07-01T00:00:00 --end=2020-07-30T23:59:59 --query="repo:org/repository"
+```

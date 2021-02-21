@@ -2,7 +2,9 @@ import { GraphQLClient, gql } from "graphql-request";
 import { PullRequest } from "./entity";
 import { parseISO } from "date-fns";
 
-const GITHUB_GRAPHQL_ENDPOINT = "https://api.github.com/graphql";
+// GitHub.com https://api.github.com/graphql
+// GitHub Enterprise https://<HOST>/api/graphql
+const GITHUB_GRAPHQL_ENDPOINT = process.env.GITHUB_ENDPOINT || "https://api.github.com/graphql";
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
 export const graphQLClient = new GraphQLClient(GITHUB_GRAPHQL_ENDPOINT, {
