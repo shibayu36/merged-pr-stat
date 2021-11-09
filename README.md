@@ -43,6 +43,15 @@ output is
 
 If you want to know about leadTime and timeToMerge for details, See https://sourcelevel.io/blog/5-metrics-engineering-managers-can-extract-from-pull-requests
 
+
+```
+|------------- lead time -------------|
+                |--- time to merge ---|
+---------------------------------------
+^               ^                     ^
+first commit    create PullRequest    merge PullRequest
+```
+
 ### log command
 If you want to get raw information about PullRequests, you can use `log` command.
 
