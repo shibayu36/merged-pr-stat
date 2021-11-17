@@ -40,6 +40,8 @@ output is
 * leadTimeSecondsMedian: the median of seconds between a first commit date and a PullRequest merged date
 * timeToMergeSecondsAverage: the average of seconds between a PullRequest created and a PullRequest merged
 * timeToMergeSecondsMedian: the median of seconds between a PullRequest created and a PullRequest merged
+* timeToMergeFromFirstReviewSecondsAverage: the average of seconds between a first review  and a PullRequest merged.
+* timeToMergeFromFirstReviewSecondsMedian: the median of seconds between a first review  and a PullRequest merged.
 
 If you want to know about leadTime and timeToMerge for details, See https://sourcelevel.io/blog/5-metrics-engineering-managers-can-extract-from-pull-requests
 
