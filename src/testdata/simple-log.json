@@ -8,8 +8,10 @@
     "additions": 36,
     "deletions": 25,
     "authoredDate": "2020-07-07T12:03:23Z",
+    "firstReviewedAt": "2020-07-07T12:15:25Z",
     "leadTimeSeconds": 1307,
-    "timeToMergeSeconds": 967
+    "timeToMergeSeconds": 967,
+    "timeToMergeFromFirstReviewSeconds": 585
   },
   {
     "title": ":up: jschardet@2.2.1 (#33720)",
@@ -32,8 +34,10 @@
     "additions": 833,
     "deletions": 217,
     "authoredDate": "2020-06-20T13:17:53Z",
+    "firstReviewedAt": "2020-06-23T01:35:44Z",
     "leadTimeSeconds": 1125472,
-    "timeToMergeSeconds": 908446
+    "timeToMergeSeconds": 908446,
+    "timeToMergeFromFirstReviewSeconds": 908401
   },
   {
     "title": "Feature #88480: Empty Lines Not Getting Commented-Out",

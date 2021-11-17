@@ -8,8 +8,10 @@
     "additions": 36,
     "deletions": 25,
     "authoredDate": "2020-07-07T12:03:23Z",
+    "firstReviewedAt": "2020-07-07T12:15:25Z",
     "leadTimeSeconds": 1307,
-    "timeToMergeSeconds": 967
+    "timeToMergeSeconds": 967,
+    "timeToMergeFromFirstReviewSeconds": 585
   },
   {
     "title": "Fixes quick find symbol finder shows 'no matching results' after backspace",
@@ -32,8 +34,10 @@
     "additions": 4,
     "deletions": 2,
     "authoredDate": "2020-07-03T20:19:08Z",
+    "firstReviewedAt": "2020-07-06T18:43:28Z",
     "leadTimeSeconds": 253587,
-    "timeToMergeSeconds": 5355
+    "timeToMergeSeconds": 5355,
+    "timeToMergeFromFirstReviewSeconds": 127
   },
   {
     "title": "[Settings Editor] Remove debounce on key change in object type settings",
@@ -44,8 +48,10 @@
     "additions": 9,
     "deletions": 14,
     "authoredDate": "2020-07-03T20:23:21Z",
+    "firstReviewedAt": "2020-07-06T18:43:38Z",
     "leadTimeSeconds": 270928,
-    "timeToMergeSeconds": 23096
+    "timeToMergeSeconds": 23096,
+    "timeToMergeFromFirstReviewSeconds": 17711
   },
   {
     "title": "[Settings Editor] Fix add button visibility in object settings",
@@ -56,8 +62,10 @@
     "additions": 8,
     "deletions": 6,
     "authoredDate": "2020-07-04T20:58:59Z",
+    "firstReviewedAt": "2020-07-06T18:44:30Z",
     "leadTimeSeconds": 182371,
-    "timeToMergeSeconds": 23375
+    "timeToMergeSeconds": 23375,
+    "timeToMergeFromFirstReviewSeconds": 17640
   },
   {
     "title": "[Settings Editor] Don't add pairs with empty keys in object settings",
@@ -68,8 +76,10 @@
     "additions": 1,
     "deletions": 1,
     "authoredDate": "2020-07-04T21:16:20Z",
+    "firstReviewedAt": "2020-07-06T18:39:49Z",
     "leadTimeSeconds": 163539,
-    "timeToMergeSeconds": 6604
+    "timeToMergeSeconds": 6604,
+    "timeToMergeFromFirstReviewSeconds": 130
   },
   {
     "title": "[Settings Editor] Correctly handle null default values for objects",
@@ -80,8 +90,10 @@
     "additions": 22,
     "deletions": 8,
     "authoredDate": "2020-07-05T01:23:33Z",
+    "firstReviewedAt": "2020-07-06T16:58:55Z",
     "leadTimeSeconds": 164856,
-    "timeToMergeSeconds": 22964
+    "timeToMergeSeconds": 22964,
+    "timeToMergeFromFirstReviewSeconds": 22334
   },
   {
     "title": "[Settings Editor] Reset object renderer model state if setting key changes",
@@ -92,8 +104,10 @@
     "additions": 11,
     "deletions": 1,
     "authoredDate": "2020-07-03T21:15:28Z",
+    "firstReviewedAt": "2020-07-06T16:57:40Z",
     "leadTimeSeconds": 266291,
-    "timeToMergeSeconds": 23403
+    "timeToMergeSeconds": 23403,
+    "timeToMergeFromFirstReviewSeconds": 22559
   },
   {
     "title": "Clarify requirements, fix for smoke tests",
@@ -104,8 +118,10 @@
     "additions": 15,
     "deletions": 6,
     "authoredDate": "2020-07-06T15:52:04Z",
+    "firstReviewedAt": "2020-07-06T17:19:15Z",
     "leadTimeSeconds": 7004,
-    "timeToMergeSeconds": 6838
+    "timeToMergeSeconds": 6838,
+    "timeToMergeFromFirstReviewSeconds": 1773
   },
   {
     "title": "Joao/release/1.47/101688",
@@ -116,8 +132,10 @@
     "additions": 1,
     "deletions": 1,
     "authoredDate": "2020-07-06T15:12:23Z",
+    "firstReviewedAt": "2020-07-06T15:23:06Z",
     "leadTimeSeconds": 666,
-    "timeToMergeSeconds": 355
+    "timeToMergeSeconds": 355,
+    "timeToMergeFromFirstReviewSeconds": 23
   },
   {
     "title": "Ignore less cached data when more is available",
@@ -128,8 +146,10 @@
     "additions": 6,
     "deletions": 0,
     "authoredDate": "2020-07-06T06:22:54Z",
+    "firstReviewedAt": "2020-07-06T10:19:49Z",
     "leadTimeSeconds": 14492,
-    "timeToMergeSeconds": 14323
+    "timeToMergeSeconds": 14323,
+    "timeToMergeFromFirstReviewSeconds": 277
   },
   {
     "title": "saveUntitedBeforeShutdown -> saveUntitledBeforeShutdown",
@@ -152,8 +172,10 @@
     "additions": 3,
     "deletions": 3,
     "authoredDate": "2020-07-05T06:41:34Z",
+    "firstReviewedAt": "2020-07-05T09:23:44Z",
     "leadTimeSeconds": 199033,
-    "timeToMergeSeconds": 198988
+    "timeToMergeSeconds": 198988,
+    "timeToMergeFromFirstReviewSeconds": 189303
   },
   {
     "title": "Add new Makefile test case for upgraded syntax",
@@ -164,8 +186,10 @@
     "additions": 68,
     "deletions": 0,
     "authoredDate": "2020-07-04T17:54:04Z",
+    "firstReviewedAt": "2020-07-06T13:18:32Z",
     "leadTimeSeconds": 156339,
-    "timeToMergeSeconds": 154912
+    "timeToMergeSeconds": 154912,
+    "timeToMergeFromFirstReviewSeconds": 71
   },
   {
     "title": "fix #79275 enable encodings for web",
@@ -200,8 +224,10 @@
     "additions": 2,
     "deletions": 2,
     "authoredDate": "2020-07-03T15:25:29Z",
+    "firstReviewedAt": "2020-07-03T16:57:27Z",
     "leadTimeSeconds": 266948,
-    "timeToMergeSeconds": 265037
+    "timeToMergeSeconds": 265037,
+    "timeToMergeFromFirstReviewSeconds": 261430
   },
   {
     "title": "Show SCM uppercase in settings search titles",
@@ -212,8 +238,10 @@
     "additions": 1,
     "deletions": 0,
     "authoredDate": "2020-07-03T14:21:52Z",
+    "firstReviewedAt": "2020-07-04T01:10:04Z",
     "leadTimeSeconds": 38927,
-    "timeToMergeSeconds": 38785
+    "timeToMergeSeconds": 38785,
+    "timeToMergeFromFirstReviewSeconds": 35
   },
   {
     "title": "Improve text of SCM count badge settings",
@@ -236,8 +264,10 @@
     "additions": 5,
     "deletions": 4,
     "authoredDate": "2020-07-03T09:27:19Z",
+    "firstReviewedAt": "2020-07-03T09:33:46Z",
     "leadTimeSeconds": 589,
-    "timeToMergeSeconds": 470
+    "timeToMergeSeconds": 470,
+    "timeToMergeFromFirstReviewSeconds": 202
   },
   {
     "title": "Check RAM before compiling",
@@ -248,8 +278,10 @@
     "additions": 10,
     "deletions": 0,
     "authoredDate": "2020-07-03T07:56:04Z",
+    "firstReviewedAt": "2020-07-03T08:31:24Z",
     "leadTimeSeconds": 269351,
-    "timeToMergeSeconds": 269293
+    "timeToMergeSeconds": 269293,
+    "timeToMergeFromFirstReviewSeconds": 267231
   },
   {
     "title": "Added word boundary on tsserver regex",
@@ -284,8 +316,10 @@
     "additions": 833,
     "deletions": 217,
     "authoredDate": "2020-06-20T13:17:53Z",
+    "firstReviewedAt": "2020-06-23T01:35:44Z",
     "leadTimeSeconds": 1125472,
-    "timeToMergeSeconds": 908446
+    "timeToMergeSeconds": 908446,
+    "timeToMergeFromFirstReviewSeconds": 908401
   },
   {
     "title": "Add \"pnpm\" option to \"npm.packageManager\" setting",
@@ -296,8 +330,10 @@
     "additions": 3,
     "deletions": 2,
     "authoredDate": "2020-06-20T14:55:50Z",
+    "firstReviewedAt": "2020-06-22T08:56:14Z",
     "leadTimeSeconds": 945648,
-    "timeToMergeSeconds": 943040
+    "timeToMergeSeconds": 943040,
+    "timeToMergeFromFirstReviewSeconds": 794424
   },
   {
     "title": "#98942 Clear Search Pattern Fields",
@@ -308,8 +344,10 @@
     "additions": 18,
     "deletions": 1,
     "authoredDate": "2020-06-12T18:21:24Z",
+    "firstReviewedAt": "2020-06-17T13:38:17Z",
     "leadTimeSeconds": 1840394,
-    "timeToMergeSeconds": 1840242
+    "timeToMergeSeconds": 1840242,
+    "timeToMergeFromFirstReviewSeconds": 1425381
   },
   {
     "title": "Feature #88480: Empty Lines Not Getting Commented-Out",
