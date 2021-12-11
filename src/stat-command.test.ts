@@ -15,6 +15,8 @@ describe("createStat", () => {
         "deletionsMedian": 23.5,
         "leadTimeSecondsAverage": 2911116,
         "leadTimeSecondsMedian": 658212,
+        "timeToMergeFromFirstReviewSecondsAverage": 454493,
+        "timeToMergeFromFirstReviewSecondsMedian": 454493,
         "timeToMergeSecondsAverage": 2591489,
         "timeToMergeSecondsMedian": 549684,
       }
@@ -34,6 +36,8 @@ describe("createStat", () => {
         "deletionsMedian": 3,
         "leadTimeSecondsAverage": 633907,
         "leadTimeSecondsMedian": 164856,
+        "timeToMergeFromFirstReviewSecondsAverage": 206823,
+        "timeToMergeFromFirstReviewSecondsMedian": 17640,
         "timeToMergeSecondsAverage": 541799,
         "timeToMergeSecondsMedian": 32512,
       }

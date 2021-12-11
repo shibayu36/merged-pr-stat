@@ -36,10 +36,15 @@ interface PullRequestStat {
   leadTimeSecondsMedian: number;
   timeToMergeSecondsAverage: number;
   timeToMergeSecondsMedian: number;
+  timeToMergeFromFirstReviewSecondsAverage: number;
+  timeToMergeFromFirstReviewSecondsMedian: number;
 }
 export function createStat(prs: PullRequest[]): PullRequestStat {
   const leadTimes = prs.map((pr) => pr.leadTimeSeconds);
   const timeToMerges = prs.map((pr) => pr.timeToMergeSeconds);
+  const timeToMergeFromFirstReviews = prs
+    .map((pr) => pr.timeToMergeFromFirstReviewSeconds)
+    .filter((x): x is number => x !== undefined);
 
   return {
     count: prs.length,
@@ -52,6 +57,8 @@ export function createStat(prs: PullRequest[]): PullRequestStat {
     leadTimeSecondsMedian: Math.floor(median(leadTimes)),
     timeToMergeSecondsAverage: Math.floor(average(timeToMerges)),
     timeToMergeSecondsMedian: Math.floor(median(timeToMerges)),
+    timeToMergeFromFirstReviewSecondsAverage: Math.floor(average(timeToMergeFromFirstReviews)),
+    timeToMergeFromFirstReviewSecondsMedian: Math.floor(median(timeToMergeFromFirstReviews)),
   };
 }
 
@@ -70,6 +77,16 @@ export function createPullRequestsByLog(path: string): PullRequest[] {
   return logs.map(
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     (p: any) =>
-      new PullRequest(p.title, p.author, p.url, p.createdAt, p.mergedAt, p.additions, p.deletions, p.authoredDate)
+      new PullRequest(
+        p.title,
+        p.author,
+        p.url,
+        p.createdAt,
+        p.mergedAt,
+        p.additions,
+        p.deletions,
+        p.authoredDate,
+        p.firstReviewedAt
+      )
   );
 }

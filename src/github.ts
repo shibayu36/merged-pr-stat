@@ -47,6 +47,11 @@ interface PullRequestNode {
       };
     }[];
   };
+  reviews: {
+    nodes: {
+      createdAt: string
+    }[]
+  }
 }
 
 async function fetchAllPullRequestsByQuery(searchQuery: string): Promise<PullRequest[]> {
@@ -70,6 +75,14 @@ async function fetchAllPullRequestsByQuery(searchQuery: string): Promise<PullReq
               nodes {
                 commit {
                   authoredDate
+                }
+              }
+            }
+            # for time to merge from review
+            reviews(first:1) {
+              nodes {
+                ... on PullRequestReview {
+                  createdAt
                 }
               }
             }
@@ -105,7 +118,8 @@ async function fetchAllPullRequestsByQuery(searchQuery: string): Promise<PullReq
             p.mergedAt,
             p.additions,
             p.deletions,
-            p.commits.nodes[0].commit.authoredDate
+            p.commits.nodes[0].commit.authoredDate,
+            p.reviews.nodes[0] ? p.reviews.nodes[0].createdAt : undefined
           )
       )
     );
