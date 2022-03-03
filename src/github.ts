@@ -34,7 +34,7 @@ interface PullRequestNode {
   title: string;
   author: {
     login: string;
-  };
+  } | null;
   url: string;
   createdAt: string;
   mergedAt: string;
@@ -112,7 +112,7 @@ async function fetchAllPullRequestsByQuery(searchQuery: string): Promise<PullReq
         (p: PullRequestNode) =>
           new PullRequest(
             p.title,
-            p.author.login,
+            p.author ? p.author.login : null,
             p.url,
             p.createdAt,
             p.mergedAt,

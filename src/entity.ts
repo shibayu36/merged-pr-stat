@@ -7,7 +7,7 @@ export class PullRequest {
 
   constructor(
     public title: string,
-    public author: string,
+    public author: string | null,
     public url: string,
     public createdAt: string,
     public mergedAt: string,
