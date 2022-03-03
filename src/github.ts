@@ -49,9 +49,9 @@ interface PullRequestNode {
   };
   reviews: {
     nodes: {
-      createdAt: string
-    }[]
-  }
+      createdAt: string;
+    }[];
+  };
 }
 
 async function fetchAllPullRequestsByQuery(searchQuery: string): Promise<PullRequest[]> {
