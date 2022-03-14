@@ -112,7 +112,7 @@ async function fetchAllPullRequestsByQuery(searchQuery: string): Promise<PullReq
         (p: PullRequestNode) =>
           new PullRequest(
             p.title,
-            p.author ? p.author.login : null,
+            p.author ? p.author.login : undefined,
             p.url,
             p.createdAt,
             p.mergedAt,
