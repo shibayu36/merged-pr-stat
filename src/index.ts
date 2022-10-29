@@ -11,6 +11,7 @@ async function main(): Promise<void> {
     .option("--start <date>")
     .option("--end <date>")
     .option("--query <search query>")
+    .option("-o, --output-file <filepath>")
     .action(statCommand);
 
   program

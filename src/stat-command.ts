@@ -1,4 +1,5 @@
 import fs from "fs";
+import path from "path";
 import { PullRequest } from "./entity";
 import { uniq } from "underscore";
 import { median as _median } from "mathjs";
@@ -9,6 +10,7 @@ interface StatCommandOptions {
   start: string | undefined;
   end: string | undefined;
   query: string | undefined;
+  outputFile: string | undefined;
 }
 export async function statCommand(options: StatCommandOptions): Promise<void> {
   let prs: PullRequest[] = [];
@@ -22,7 +24,20 @@ export async function statCommand(options: StatCommandOptions): Promise<void> {
     process.exit(1);
   }
 
-  process.stdout.write(JSON.stringify(createStat(prs), undefined, 2));
+  const output = JSON.stringify(createStat(prs), undefined, 2);
+
+  if (options.outputFile) {
+    const filePath = path.resolve(process.cwd(), options.outputFile);
+    try {
+      fs.mkdirSync(path.dirname(filePath), { recursive: true });
+      fs.writeFileSync(filePath, output);
+    } catch (error) {
+      console.error("There was a problem writing the output file:\n%s", error);
+      process.exit(1);
+    }
+  } else {
+    process.stdout.write(output);
+  }
 }
 
 interface PullRequestStat {
