@@ -7,10 +7,12 @@ describe("createStat", () => {
     const stat = createStat(prs);
     expect(stat).toMatchInlineSnapshot(`
       Object {
+        "additions": 1040,
         "additionsAverage": 260,
         "additionsMedian": 92.5,
         "authorCount": 3,
         "count": 4,
+        "deletions": 283,
         "deletionsAverage": 70.75,
         "deletionsMedian": 23.5,
         "leadTimeSecondsAverage": 2911116,
@@ -28,10 +30,12 @@ describe("createStat", () => {
     const stat = createStat(prs);
     expect(stat).toMatchInlineSnapshot(`
       Object {
+        "additions": 1514,
         "additionsAverage": 56.074074074074076,
         "additionsMedian": 8,
         "authorCount": 16,
         "count": 27,
+        "deletions": 651,
         "deletionsAverage": 24.11111111111111,
         "deletionsMedian": 3,
         "leadTimeSecondsAverage": 633907,
