@@ -1,3 +1,8 @@
+## [v0.4.0](https://github.com/shibayu36/merged-pr-stat/compare/v0.3.1...v0.4.0) (2023-10-11)
+
+* Update webpack to build correctly [#16](https://github.com/shibayu36/merged-pr-stat/pull/16) ([shibayu36](https://github.com/shibayu36))
+* Add `additions` and `deletions` to `PullRequestStat` [#15](https://github.com/shibayu36/merged-pr-stat/pull/15) ([ggalmazor](https://github.com/ggalmazor))
+
 ## [v0.3.1](https://github.com/shibayu36/merged-pr-stat/compare/v0.3.0...v0.3.1) (2022-03-14)
 
 * Update author is nullable [#12](https://github.com/shibayu36/merged-pr-stat/pull/12) ([isanasan](https://github.com/isanasan))
