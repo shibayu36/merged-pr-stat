@@ -28,8 +28,10 @@ export async function statCommand(options: StatCommandOptions): Promise<void> {
 interface PullRequestStat {
   count: number;
   authorCount: number;
+  additions: number;
   additionsAverage: number;
   additionsMedian: number;
+  deletions: number;
   deletionsAverage: number;
   deletionsMedian: number;
   leadTimeSecondsAverage: number;
@@ -49,8 +51,10 @@ export function createStat(prs: PullRequest[]): PullRequestStat {
   return {
     count: prs.length,
     authorCount: uniq(prs.map((pr) => pr.author)).length,
+    additions: sum(prs.map((pr) => pr.additions)),
     additionsAverage: average(prs.map((pr) => pr.additions)),
     additionsMedian: median(prs.map((pr) => pr.additions)),
+    deletions: sum(prs.map((pr) => pr.deletions)),
     deletionsAverage: average(prs.map((pr) => pr.deletions)),
     deletionsMedian: median(prs.map((pr) => pr.deletions)),
     leadTimeSecondsAverage: Math.floor(average(leadTimes)),
@@ -70,6 +74,10 @@ function average(numbers: number[]): number {
 function median(numbers: number[]): number {
   if (numbers.length === 0) return 0;
   return _median(numbers);
+}
+
+function sum(numbers: number[]): number {
+  return numbers.reduce((a, b) => a + b, 0);
 }
 
 export function createPullRequestsByLog(path: string): PullRequest[] {
