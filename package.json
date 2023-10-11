@@ -1,7 +1,7 @@
 {
   "name": "@shibayu36/merged-pr-stat",
   "description": "A tool to create merged PullRequest statistics",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "author": {
     "name": "shibayu36",
     "email": "shibayu36@gmail.com",
