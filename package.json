@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "commander": "^6.0.0",
-    "csv-stringify": "^6.4.4",
+    "csv-stringify": "^5.5.1",
     "date-fns": "^2.15.0",
     "graphql": "^15.3.0",
     "graphql-request": "^3.0.0",
